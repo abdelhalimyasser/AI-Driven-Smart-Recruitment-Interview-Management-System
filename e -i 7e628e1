@@ -1,0 +1,77 @@
+[33m0a486fd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Upload the first Enum's
+[33m94dfa53[m Create .gitignore
+[33m6a01721[m Delete src/enums directory
+[33mda99e75[m Add files via upload
+[33mb091066[m Add files via upload
+[33m28bfc24[m Add files via upload
+[33mc415a2c[m Add files via upload
+[33m9416d31[m Add files via upload
+[33m4164943[m Delete docs/architecture/Activity Diagram/Final_Activity.zip
+[33mc6781ed[m Rename Final_One.zip to Final_Activity.zip
+[33maea2ace[m Add files via upload
+[33md2fe882[m Revise Class Diagram README for clarity and updates
+[33me33d7b4[m Update README for Class Diagram v2 enhancements
+[33m068ebce[m Add files via upload
+[33m4151bc9[m Add footer to ERD README with project details
+[33m8763f4b[m Update README with project and copyright details
+[33m1744fca[m Enhance README with architecture and class diagram details
+[33m06e549b[m Update footer in README with copyright and license
+[33m30460a5[m Add files via upload
+[33m22c2884[m Document NextHire system architecture and components
+[33m4b89eff[m Add files via upload
+[33m7d08d85[m Fix spelling of 'NextHire' in README.md
+[33m7038815[m Revise README with project details and structure
+[33mc45d882[m Add files via upload
+[33m2ec3a4c[m Create README.md
+[33mfcc9ae1[m Create README.md
+[33m486be97[m Create README.md
+[33m45504e2[m Create README.md
+[33m7e628e1[m Delete docs/architecture/Activity Diagrams directory
+[33mc869660[m Create README.md
+[33m6d3e05a[m Delete docs/.gitignore
+[33mc14ed5b[m Delete docs/architecture/erd directory
+[33m1061327[m Add files via upload
+[33m6166091[m Create README.md
+[33mc1baefe[m Delete docs/architecture/ERD
+[33meb04adb[m Create ERD
+[33m6332cc8[m Create README.md
+[33mf80e541[m Create README.md
+[33mc1718ce[m Create README.md
+[33ma1a0b36[m Delete docs/architecture/Class Diagram V1 directory
+[33m6c6e43c[m Create README.md
+[33m3b5528f[m Create README.md
+[33m803a070[m Add download section to ERD README
+[33mff226b0[m Delete docs/team_guides directory
+[33m804052c[m Add files via upload
+[33mc33ad0f[m Delete docs/architecture/.gitignore
+[33m93b4ab5[m Add files via upload
+[33m38df905[m Add ERD documentation for NextHire database
+[33m2f975a3[m Add Contributor Covenant Code of Conduct
+[33m289c9e2[m Create SECURITY.md for vulnerability reporting
+[33m7c16bf9[m Add contributing guidelines for the project
+[33m6da79e0[m Enhance pull request template with new sections
+[33m2914c24[m Update issue templates
+[33m425dfe0[m Create PULL_REQUEST_TEMPLATE.md
+[33m1e21e1b[m Create feature_request.md
+[33m3fa7174[m Create bug_report.md
+[33mbc490af[m Create CODE_OF_CONDUCT.md
+[33m7a4b4d2[m Create SECURITY.md
+[33md121027[m Create CONTRIBUTING.md
+[33mbc0add6[m Delete docs/requirements/,gitignore
+[33m76f2986[m Create index.php
+[33mc8d1fdf[m Delete index.html
+[33mb855f17[m Create .gitignore
+[33m43fffe9[m Add files via upload
+[33m1fec10f[m Create index.html
+[33m422ee63[m Create .gitignore
+[33m6a32e9a[m Create .gitignore
+[33m1449a7e[m Create .gitignore
+[33me09b360[m Create ,gitignore
+[33m63b0913[m Create .gitignore
+[33m9f55002[m Create .gitignore
+[33m347aa5d[m Create .gitignore
+[33ma420d77[m Create .gitignore
+[33m5a57fd2[m Create .gitignore
+[33mb2de69f[m Create .gitignore
+[33mc7e0ace[m Create .gitignore
+[33mb0e67e2[m Initial commit
