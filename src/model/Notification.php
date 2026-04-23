@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace model;
 
 use DateTimeImmutable;
+use Exception;
 use RuntimeException;
 
 /**
@@ -22,6 +23,7 @@ class Notification
     private ?DateTimeImmutable $receivedAt;
     private ?DateTimeImmutable $readAt;
     private bool $submittedFeedback;
+    private ?DateTimeImmutable $createdAt;
 
     /**
      * @param string $message
@@ -46,8 +48,9 @@ class Notification
             $this->receivedAt = $receivedAt;
             $this->readAt = $readAt;
             $this->submittedFeedback = $submittedFeedback;
-        } catch (\Exception $e) {
-            throw new \RuntimeException('Failed to create Notification: ' . $e->getMessage(), 0, $e);
+            $this->createdAt = new DateTimeImmutable();
+        } catch (Exception $e) {
+            throw new RuntimeException('Failed to create Notification: ' . $e->getMessage(), 0, $e);
         }
     }
 
@@ -127,5 +130,18 @@ class Notification
     public function setSubmittedFeedback(bool $submittedFeedback): void
     {
         $this->submittedFeedback = $submittedFeedback;
+    }
+
+    public function getCreatedAt(): ?DateTimeImmutable
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param DateTimeImmutable $createdAt
+     */
+    public function setCreatedAt(DateTimeImmutable $createdAt): void
+    {
+        $this->createdAt = $createdAt;
     }
 }
