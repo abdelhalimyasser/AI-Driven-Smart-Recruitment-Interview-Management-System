@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace model;
+use http\Exception\RuntimeException;
 use model\enum\UserRole;
 
 use DateTime;
@@ -11,27 +12,30 @@ use Exception as Exception;
 
 /**
  * Class User
+ *
+ * Represents a user in the system, which can be a basic user, employee (HrAdmin, Interviewer, DepartmentManeger, and ShadowInterviewer) ,and Candidate
+ *
  * @package model
- * @author  Abdelhalim Yasser
  * @version 1.0
  * @since   24-04-2026
-*/
+ * @author  Abdelhalim Yasser
+ */
 class User
 {
-    private ?string $id;
-    private ?string $firstName;
-    private ?string $lastName;
-    private ?DateTime $birthDate;
-    private ?string $email;
-    private ?string $countryCode;
-    private ?string $phoneNumber;
-    private ?UserRole $role;
-    private ?string $password;
+    private string $id;
+    private string $firstName;
+    private string $lastName;
+    private DateTime $birthDate;
+    private string $email;
+    private string $countryCode;
+    private string $phoneNumber;
+    private UserRole $role;
+    private string $password;
     private array $userSkills = [];
-    private ?string $experienceYear;
-    private ?string $resumePath;
-    private ?string $docs;
-    private ?DateTimeImmutable $createdAt;
+    private string $experienceYear;
+    private string $resumePath;
+    private string $docs;
+    private DateTimeImmutable $createdAt;
 
     /**
      * @param string $firstName
@@ -79,7 +83,7 @@ class User
             $this->docs = $docs;
             $this->createdAt = new DateTimeImmutable();
         } catch(Exception $e) {
-            throw new Exception($e->getMessage() . "Failed to create User object. One of inputs invalid!");
+            throw new RuntimeException('Failed to create User: ' . $e->getMessage(), 0, $e);
         }
     }
 
